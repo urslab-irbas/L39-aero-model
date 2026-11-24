@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article in which the model is described (preferred-citation)."
+title: "L39-aero-model: flight-dynamics model of the L-39 aircraft with polynomial approximation of the aerodynamic characteristics"
+type: software
+authors:
+  - family-names: Madzharov
+    given-names: Anastas
+    orcid: "https://orcid.org/0000-0002-6282-617X"
+    affiliation: "Institute of Robotics, Bulgarian Academy of Sciences"
+license: MIT
+date-released: "2026-11-24"
+version: "1.2.0"
+keywords:
+  - aircraft motion model
+  - orthogonal basis
+  - aerodynamic coefficients
+  - polynomial approximation
+  - orthodrome
+  - L-39
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Madzharov
+      given-names: Anastas
+      orcid: "https://orcid.org/0000-0002-6282-617X"
+  title: "A six-degree-of-freedom flight-dynamics model of the L-39 aircraft with polynomial approximation of the aerodynamic characteristics"
+  journal: "Aerospace Research in Bulgaria"
+  year: 2026
+  notes: "Submitted"
