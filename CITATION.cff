@@ -10,7 +10,10 @@ authors:
 license: MIT
 date-released: "2026-11-24"
 version: "1.2.0"
+doi: "10.5281/zenodo.24497160"
+repository-code: "https://github.com/urslab-irbas/L39-aero-model"
 keywords:
+  - flight-dynamics model
   - aircraft motion model
   - orthogonal basis
   - aerodynamic coefficients

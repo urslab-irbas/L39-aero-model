@@ -1,5 +1,7 @@
 # L39-aero-model
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24497160.svg)](https://doi.org/10.5281/zenodo.24497160)
+
 Six-degree-of-freedom flight-dynamics model of the **L-39** jet trainer with **polynomial approximation of the aerodynamic characteristics**, an engine model and navigation equations for orthodromic flight on the WGS-84 ellipsoid, with the diurnal rotation of the Earth taken into account.
 
 The model extends the simplified model of aircraft motion, in which the aircraft is treated as an orthogonal basis, to a full flight-dynamics model. The nonlinear aerodynamic characteristics, traditionally stored as tables in the memory of the onboard controller, are replaced by compact polynomials in the Mach number and in the lift coefficient. They need little memory, are evaluated with a fixed number of operations (Horner's method) and have continuous derivatives of all orders.
@@ -9,6 +11,8 @@ The model extends the simplified model of aircraft motion, in which the aircraft
 The model and all results are described in the article below. **If you use this code, its results or the polynomial aerodynamic model in your work, please cite:**
 
 > Madzharov, A. (2026). A six-degree-of-freedom flight-dynamics model of the L-39 aircraft with polynomial approximation of the aerodynamic characteristics. *Aerospace Research in Bulgaria*, XX (submitted).
+
+The code itself (version 1.2.0) is archived in Zenodo: https://doi.org/10.5281/zenodo.24497160
 
 ```bibtex
 @article{Madzharov2026L39,
